@@ -1,0 +1,72 @@
+body {
+  background-image: url(background.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  width: 63%;
+  padding: 5.7%;
+  box-sizing: border-box;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+header, nav {
+  text-align: center;
+}
+
+header img {
+  width: 25%;
+}
+
+header h1 {
+  color: #32CD32;
+  margin: 0;
+}
+
+nav {
+  background-color: #32CD32;
+  padding: 10px;
+}
+
+section {
+  color: white;
+  padding: 15px 0px 15px;
+}
+
+section>span {
+  font-size: 140%;
+}
+
+.row:before {
+  content: ' \27B8';
+}
+
+.row, .font {
+  font-weight: 200;
+}
+
+#charge {
+  background-color: rgb(244, 164, 96);
+  width: 35%;
+}
+
+#charge1 {
+  background-color: rgb(50, 205, 50);
+  width: 60%;
+}
+
+#charge2 {
+  background-color: rgb(205, 92, 92);
+  width: 15%;
+}
+
+Section div:last-child {
+  height: 30px;
+  border-radius: 5px;
+}
